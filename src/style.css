@@ -1,0 +1,229 @@
+* {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: #23252c;
+}
+
+.retangulo {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  background-color: #1a1b21;
+}
+
+.retangulo .title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30.26px;
+  text-align: center;
+  color: white;
+}
+.retangulo .subtitle {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15.49px;
+  text-align: center;
+  color: #f3bf99;
+}
+.retangulo .github {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.foto {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+  background: url(./images/FotoPerfilNovo.jpeg);
+}
+
+.foto .foto-perfil {
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.retangulo .email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 23px 9px 11px;
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  top: 114px;
+  left: 29px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.retangulo .linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 23px 9px 11px;
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  top: 114px;
+  left: 169px;
+  background: #5093e2;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.retangulo .email .text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+  position: static;
+  width: 36px;
+  height: 16px;
+  left: 50.5px;
+  top: 9px;
+}
+
+.retangulo .linkedin .text {
+  position: static;
+  width: 57px;
+  height: 16px;
+  left: 40px;
+  top: 9px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.retangulo .email .icon {
+  padding: 7px;
+}
+
+.retangulo .linkedin .icon {
+  padding: 5px;
+}
+
+.retangulo .about {
+  position: absolute;
+  color: #f5f5f5;
+  width: 242.71px;
+  height: 21px;
+  left: 32px;
+  top: 140px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.retangulo .interests {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 32px;
+  top: 240px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.retangulo .me {
+  position: absolute;
+  left: 32px;
+  top: 170px;
+  color: #dcdcdc;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.retangulo .my {
+  position: absolute;
+  left: 32px;
+  top: 270px;
+  color: #dcdcdc;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.redes {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.redes .twitter {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 19px;
+  left: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.redes .facebook {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 19px;
+  left: 119px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.redes .instagram {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 19px;
+  left: 169px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.redes .github {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 19px;
+  left: 219px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
